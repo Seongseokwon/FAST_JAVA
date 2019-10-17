@@ -26,12 +26,12 @@ public class Student {
 	
 	public void showStudentInfo()
 	{
-		System.out.print( studentName + " ÇĞ»ıÀÌ ÀĞÀº Ã¥Àº : ");
+		System.out.print( studentName + " í•™ìƒì´ ì½ì€ ì±…ì€ : ");
 				
 		for(Book book : bookList){
 			System.out.print(book.getBookName() + " ");
 		}
 		
-		System.out.println("ÀÔ´Ï´Ù");
+		System.out.println("ì…ë‹ˆë‹¤");
 	}
 }
